@@ -24,12 +24,16 @@ Either as you go or after you are done writing your program, answer the followin
 
 **What did Copilot do well as the navigator?**
 
-Write your response here!
+It gave me a way to solve the problem using less code than the way I had before, which was:
+   cities.sort((City c1, Cityc2)->{
+      return c1.getName().toLowerCase().compareTo(c2.getName().toLowerCase());
+   });
+It gave me the code for what it is now.
 
 **What did Copilot struggle with as the navigator?**
 
-Write your response here!
+It gave me solutions, even though I told it not to. Also, it could only see the file I was in, so it couldn't tell me what the whole program did.
 
 **What challenges did you face while working with Copilot as the navigator?**
 
-Write your response here!
+Installing it.
